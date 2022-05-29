@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-X_INIT = tf.contrib.layers.xavier_initializer()
+X_INIT = tf.keras.initializers.glorot_normal()
 
 
 def xavier(fan_in_out, name='weight'):
